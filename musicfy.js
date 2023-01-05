@@ -1,3 +1,7 @@
+const music = new Audio('vande.mp3')
+
+// Create Array
+
 const songs = [
     {
         id:'1',
@@ -78,3 +82,8 @@ const songs = [
         poster: "img/15.jpg",
     },
 ]
+
+Array.from(document.getElementsByClassName('songItem')).forEach((element, i) => {
+    element.getElementsByTagName('img')[0].src = songs[i].poster;
+    element.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
+})
