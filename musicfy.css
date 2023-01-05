@@ -577,3 +577,10 @@ header .song_side .popular_artists .item li img{
 header .song_side .popular_artists .item::-webkit-scrollbar{
     display: none;
 }
+header .menu_side .menu_song{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+header .menu_side .menu_song::-webkit-scrollbar{
+    display: none;
+}
