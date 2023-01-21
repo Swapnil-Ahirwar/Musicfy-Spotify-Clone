@@ -23,3 +23,7 @@ Note: Please make sure, you have **node.js** and **live-server** presiding in yo
 
 And star this repository if found useful. 
 If there are bug/fixes, feel free to raise Issue/Pull Request.
+ 
+# Work In Progress
+- Responsive Web Design
+- Search songs
